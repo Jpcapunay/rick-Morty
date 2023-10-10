@@ -36,7 +36,7 @@ function displayImages(characters){
     }
     
   // get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    let span = document.getElementsByClassName("close")[0];
   //when the user clicks on <span> (x) , close the modal 
     span.onclick = function() {
       document.getElementById('myModal').style.display = "none";
